@@ -6,10 +6,10 @@ export function useTelegram() {
     }
 
     const onToggleButton = () => {
-        if (tg.BottomButton.isVisible) {
-            tg.BottomButton.hide();
+        if (tg.BackButton.isVisible) {
+            tg.BackButton.hide();
         } else {
-            tg.BottomButton.show();
+            tg.BackButton.show();
         }
     }
     
